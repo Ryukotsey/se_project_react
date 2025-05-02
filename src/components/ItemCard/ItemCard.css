@@ -1,0 +1,51 @@
+.cards__text {
+  font-family: CabinetGrotesk;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  margin: 0;
+  padding: 40px 0px 34px;
+}
+
+.cards__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 323px);
+  gap: 20px;
+  width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-card {
+  position: relative;
+  width: 325px;
+  height: 328px;
+  list-style-type: none;
+}
+
+.item-card__text {
+  background-color: #ffffff;
+  border-radius: 4px;
+  position: absolute;
+  top: 15px;
+  left: 125px;
+  right: 125px;
+  margin: 0;
+  justify-self: center;
+  padding: 2px 12px;
+  font-family: CabinetGrotesk;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.item-card__image {
+  border-radius: 20px;
+  position: static;
+  width: 328px;
+  height: 328px;
+  border: 1px;
+  border-style: solid;
+  background-color: #e9e9e9, 30%;
+}

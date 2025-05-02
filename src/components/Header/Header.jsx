@@ -1,7 +1,7 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
 import avatar from "../../assets/avatar.png";
-import currentDate from "../../utils/constants.js";
+import { currentDate } from "../../utils/constants";
 
 function Header() {
   return (
