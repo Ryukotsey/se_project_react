@@ -5,6 +5,7 @@ import WeatherCard from "./components/WeatherCard/WeatherCard";
 import { defaultClothingItems } from "./utils/constants";
 import ItemCard from "./components/ItemCard/ItemCard";
 import App from "./components/App/App";
+import "./components/Main/Main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
