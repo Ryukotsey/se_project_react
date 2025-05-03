@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../index.css";
-import WeatherCard from "../WeatherCard/WeatherCard";
-import { defaultClothingItems } from "../../utils/constants";
-import ItemCard from "../ItemCard/ItemCard";
-import App from "../App/App";
+import "../src/index.css";
+import WeatherCard from "./components/WeatherCard/WeatherCard";
+import { defaultClothingItems } from "./utils/constants";
+import ItemCard from "./components/ItemCard/ItemCard";
+import App from "./components/App/App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
