@@ -102,6 +102,7 @@
   width: 124px;
   height: 36px;
   padding: 0;
+  cursor: pointer;
 }
 
 .modal__submit-text {
