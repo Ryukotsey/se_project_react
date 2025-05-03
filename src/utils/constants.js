@@ -41,3 +41,10 @@ export const currentDate = new Date().toLocaleString("default", {
   month: "long",
   day: "numeric",
 });
+
+export const coordinates = {
+  lat: 36.201569,
+  lon: -76.76767,
+};
+
+export const APIkey = "543bef11b326b061392ecd66c1707944";
