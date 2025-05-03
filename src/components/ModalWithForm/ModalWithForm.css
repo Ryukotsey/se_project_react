@@ -51,6 +51,7 @@
   right: 28px;
   border-style: none;
   background-color: #f3f3f3;
+  cursor: pointer;
 }
 
 .modal__form {
