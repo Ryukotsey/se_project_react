@@ -6,7 +6,7 @@ import { currentDate } from "../../utils/constants";
 function Header({ handleAddClick, weatherData }) {
   return (
     <header className="header">
-      <img src={logo} className="header__logo"></img>
+      <img alt="header logo" src={logo} className="header__logo"></img>
       <p className="header__date-and-location">
         {currentDate}, {weatherData.city}
       </p>
